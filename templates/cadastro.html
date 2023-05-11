@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient();
+        }
+
+        .tela-cadastro {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 30px;
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        hr {
+            border-bottom: 10px;
+        }
+
+        .ven-cli {
+            border-color: aqua;
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            width: 250px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding-top: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: aqua;
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <nav>
+
+        </nav>
+    </head>
+    <main>
+        <div class="tela-cadastro">
+            <h1>
+                Cadastro
+            </h1>
+            <form method="post" action="">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                    </label>
+                </div>
+
+                <p>
+                    <label for="inome">Nome completo </label>
+                    <input type="text" name="text">
+                </p>
+    
+                <p>
+                    <label for="iemail">Email: </label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label for="idata">Data de nascimento: </label>
+                    <input type="date" name="date">
+                </p>
+                <fieldset>
+                    <legend>
+                        Endereço
+                    </legend>
+                    <p>
+                        <label for="iest">Estado: </label>
+                        <select name="estado">
+                            <option>SP</option>
+                            <option>RJ</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="irua">Rua: </label>
+                        <input type="text" name="text">
+                    </p>
+                    <p>
+                        <label for="inum">Número: </label>
+                        <input type="number" name="number">
+                    </p>
+                </fieldset>
+                <p>
+                    <label for="itel">Telefone: </label>
+                    <input type="tel" name="tel">
+                </p>
+                <p>
+                    <label for="isen">Senha: </label>
+                    <input type="password" name="password">
+                </p>
+                <p>
+                    <input type="submit" value="cadastrar">
+                </p>
+                <p>
+                    <a href="login.html">Já sou cadastrado(a)</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

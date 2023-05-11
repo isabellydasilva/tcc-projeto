@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, #7F3BDB, #DB8025);
+        }
+
+        .tela-login {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 30px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        hr {
+            border-bottom: 10px;
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            width: 250px;
+            font-size: 1rem;
+        }
+
+        ::placeholder {
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding-top: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(127,59,219);
+            border-radius: 6px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        button:hover {
+            background-color: #DB8025;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <nav>
+
+        </nav>
+    </head>
+
+    <main>
+        <div class="tela-login">
+            <h1>
+                Login
+            </h1>
+            <hr>
+            <form method="post" action="">
+                    <p><input type="email" name="email" placeholder="Email"></p>
+                    <p>
+                        <input type="password" name="password"
+                        placeholder="Senha">
+                    </p>
+                    <p><a href="#">Esqueci a senha</a></p>
+                    <button>
+                        Enviar
+                    </button>
+                    <p><a href="cadastro.html">Não sou cadastrado(a)</a></p>
+        </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
